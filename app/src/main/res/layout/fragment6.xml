@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/pnk_100">
+
+    <LinearLayout
+        android:id="@+id/Li_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@color/pnk_400">
+
+        <TextView
+            android:id="@+id/Title_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:text="오늘 행운의 Color"
+            android:textColor="@color/pnk_900"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="16sp"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:text="아래 버튼을 클릭해서 행운의 컬러를 확인하세요.">
+    </TextView>
+
+
+    <Button
+        android:id="@+id/btn"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:text="확인하기"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="30dp">
+    </Button>
+
+
+    <FrameLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center">
+
+        <ImageView
+            android:id="@+id/imgView1"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/red">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView2"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/yellow">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView3"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/green">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView4"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/blue">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView5"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/purple">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView6"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/pink">
+        </ImageView>
+
+        <ImageView
+            android:id="@+id/imgView7"
+            android:layout_width="350dp"
+            android:layout_height="350dp"
+            android:visibility="invisible"
+            android:layout_marginTop="30dp"
+            android:src="@drawable/brown">
+        </ImageView>
+
+    </FrameLayout>
+
+
+
+
+</LinearLayout>

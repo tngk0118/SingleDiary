@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginBottom="60dp"
+    android:orientation="vertical"
+    android:background="@color/pnk_100">
+
+    <LinearLayout
+        android:id="@+id/Li_Layout"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_marginBottom="10dp"
+        android:layout_alignParentTop="true"
+        android:orientation="vertical"
+        android:background="@color/pnk_400">
+
+        <TextView
+            android:id="@+id/Title_TextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:textSize="25sp"
+            android:layout_gravity="center"
+            android:text="이번주 추천 동영상"
+            android:textColor="@color/pnk_900"
+            android:textStyle="bold"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="220dp"
+        android:layout_marginTop="3dp"
+        android:padding="3dp">
+
+
+        <VideoView
+            android:id="@+id/video1"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </VideoView>
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <Button
+            android:id="@+id/vd1Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="재생">
+        </Button>
+
+        <Button
+            android:id="@+id/vd1Btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="일시정지">
+        </Button>
+
+        <Button
+            android:id="@+id/vd1Btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="재시작">
+        </Button>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="230dp"
+        android:padding="3dp"
+        android:background="@color/pnk_200">
+
+        <VideoView
+            android:id="@+id/video2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+        </VideoView>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:orientation="horizontal"
+        android:gravity="center"
+        android:background="@color/pnk_200">
+
+        <Button
+            android:id="@+id/vd2Btn1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="재생">
+        </Button>
+
+        <Button
+            android:id="@+id/vd2Btn2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="일시정지">
+        </Button>
+
+        <Button
+            android:id="@+id/vd2Btn3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:backgroundTint="@color/pnk_400"
+            android:text="재시작">
+        </Button>
+
+    </LinearLayout>
+
+
+</LinearLayout>

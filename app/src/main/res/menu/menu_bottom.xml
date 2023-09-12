@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/tab0"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_calender"
+        android:title="캘린더" />
+
+    <item
+        android:id="@+id/tab1"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_color"
+        android:title="행운의 컬러" />
+    <item
+        android:id="@+id/tab2"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/ic_music"
+        android:title="추천 음악" />
+    <item
+        android:id="@+id/tab4"
+        app:showAsAction="ifRoom"
+        android:enabled="true"
+        android:icon="@drawable/ic_video"
+        android:title="추천 동영상"/>
+
+</menu>
